@@ -1,0 +1,32 @@
+{
+  "name": "crud-nodejs-fs-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "pkgroll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.9.3",
+    "pkgroll": "^2.5.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "nanoid": "^5.0.8"
+  }
+}
