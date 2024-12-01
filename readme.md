@@ -4,8 +4,8 @@ https://docs.google.com/document/d/1FxtSmkDNmHKlkh4Dsfwlk8rEtNj6fyMU2105LpuOrUA/
 
 # Rutas que usan el verifyToken:
 
-### Ver todos los usuarios
-### Todas las rutas de projects
+### - Ver todos los usuarios
+### - Todas las rutas de projects
 
 ## archivo .env solo contine PORT = 3000
 
